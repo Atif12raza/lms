@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .class-card {
+    border: 1px solid #ccc;
+    padding: 50px;
+    color: black;
+    width: 250%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+  
+  .class-card h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .class-card p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .details-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .details-button:hover {
+    background-color: darkgreen;
+  }
